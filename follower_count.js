@@ -1,16 +1,7 @@
 let count = 0; // Initialize count to 0
 
-function increaseCount() {
-  count++; // Incrementar a contagem em 1
-}
-
 function displayCount() {
-document.getElementById('countDisplay').innerHTML=count; // Exibir a contagem no HTML
-}
-
-function increaseCount() {
-  count++; // Incrementar a contagem em 1
-  displayCount(); // Exibir a contagem
+  document.getElementById('countDisplay').innerHTML = count; // Exibir a contagem no HTML
 }
 
 function checkCountValue() {
