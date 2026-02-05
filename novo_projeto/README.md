@@ -1,4 +1,3 @@
-# Feedback de Marca de Luxo
 
 Descrição
 - Protótipo simples de formulário para coletar feedback de produtos de marca de luxo (perfume, creme, óleos).
@@ -46,11 +45,6 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('userFeedback').textContent = feedbackText;
     document.getElementById('userInfo').style.display = 'block';
 
-    // opcional: limpar campos
     // document.getElementById('feedbackText').value = '';
   });
 });
-```
-
-Próximo passo
-- Se quiser, posso criar o `product_survey.js` funcional agora para você.
